@@ -6,7 +6,7 @@ let tabelcol1 = document.createElement("td");
 let tabelcol2 = document.createElement("td");
 tableRow.append(tabelcol1,tabelcol2)
 table.prepend(tableRow);
-    tabelcol1.textContent = "NewCell";
-    tabelcol2.textContent = "NewCell2" 
+    tabelcol1.textContent = "New Cell";
+    tabelcol2.textContent = "New Cell2" 
 i++
 }

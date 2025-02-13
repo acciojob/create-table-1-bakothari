@@ -1,5 +1,12 @@
+let i=0
 function insert_Row() {
-    //Write your code here
-  
-  
+let table = document.getElementById("sampleTable");
+let tableRow = document.createElement("tr");
+let tabelcol1 = document.createElement("td");
+let tabelcol2 = document.createElement("td");
+tableRow.append(tabelcol1,tabelcol2)
+table.append(tableRow);
+    tabelcol1.textContent = "New Cell";
+    tabelcol2.textContent = "New Cell2" 
+i++
 }
